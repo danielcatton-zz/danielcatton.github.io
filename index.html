@@ -5,8 +5,13 @@
     </head>
     <body>    
         <h1>So what is this then?</h1>
-        <p>This website is a proof of concept to show and develop skills in the realm of web development. You can probably just ignore this. <strong>Have some bold text</strong> <em>Have some italic text</em> <a href="https://github.com" target="_blank">Have a link to GitHub</a> </p>
+        <p>This website is a proof of concept to show and develop skills in the realm of web development. <br>
+            You can probably just ignore this. <br>
+            <strong>Have some bold text</strong> <br>
+            <em>Have some italic text</em> <br>
+            <a href="https://github.com" target="_blank">Have a link to GitHub</a> </p>
         <!-- Lists -->
+        <p>Here lies a list.</p>
         <ul>
             <li>"The List" begins here</li>
             <li>It continues a little longer</li>
@@ -32,5 +37,48 @@
                 </tr>
             </tbody>
         </table>
+
+        <br>
+        <hr>
+        <br>
+        <!-- Forms -->
+        <p>These forms serve no tangible purpose, they are simply here to show that they exist.</p>
+        <form action="register.php" method="POST">
+            <div>
+                <label>Testing Form</label>
+                <input type="text" name="name">
+            </div>
+            <br>
+            <div>
+                <label>Testing Form Number Two</label>
+                <input type="text" name="nameTwo">
+            </div>
+            <br>
+            <div>
+                <label>Send a message to a non-existant web server!</label>
+                <textarea name="message" cols="30" rows="3"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Options</label>
+                <select name="Select an Option">
+                    <option value="Option 1">Option 1</option>
+                    <option value="Option 2">Option 2</option>
+                    <option value="Option 3">Option 3</option>
+                    <option value="Option 4">Option 4</option>
+                    <option value="Option 5">Option 5</option>
+                </select>
+            </div>
+            <br>
+                <div>
+                    <label>Pick a date, any date:</label>
+                    <input type="date" name="datePicker">
+                </div>
+                <br>
+                <div>
+                    <label>Pick a Number, any number</label>
+                    <input type="number" name="numberPicker">
+                </div>
+        </form>
 
         <div style="margin-top:500px"></div>
