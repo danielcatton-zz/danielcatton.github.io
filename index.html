@@ -46,22 +46,22 @@
         <form action="register.php" method="POST">
             <div>
                 <label>Testing Form</label>
-                <input type="text" name="name">
+                <input type="text" name="name" placeholder="Type something">
             </div>
             <br>
             <div>
                 <label>Testing Form Number Two</label>
-                <input type="text" name="nameTwo">
+                <input type="text" name="nameTwo" placeholder="Type something else">
             </div>
             <br>
             <div>
                 <label>Send a message to a non-existant web server!</label>
-                <textarea name="message" cols="30" rows="3"></textarea>
+                <textarea name="message" cols="30" rows="3" placeholder="Type something"></textarea>
             </div>
             <br>
             <div>
                 <label>Options</label>
-                <select name="Select an Option">
+                <select name="optionSelector">
                     <option value="Option 1">Option 1</option>
                     <option value="Option 2">Option 2</option>
                     <option value="Option 3">Option 3</option>
@@ -77,8 +77,15 @@
                 <br>
                 <div>
                     <label>Pick a Number, any number</label>
-                    <input type="number" name="numberPicker">
+                    <input type="number" name="numberPicker" value="24">
                 </div>
+                <br>
+                <input type="submit" name="submit" value="Submit">
         </form>
 
+        <!-- A Button-->
+        <button>Click this button to gain no benefit!</button>
+        <br>
+        <!-- Images -->
+        <img src="img/firefoxlogo.png" alt="Sample Mozilla Firefox logo" width="200">
         <div style="margin-top:500px"></div>
