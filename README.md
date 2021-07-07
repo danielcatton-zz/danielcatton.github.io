@@ -1,2 +1,2 @@
 # danielcatton.github.io
-The FifthSplit website
+This website contains all my projects. These include websites, applications, games and my (completely unrelated) YouTube Channel.
