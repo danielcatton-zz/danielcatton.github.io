@@ -4,7 +4,7 @@
 
 body {
     padding: 20px;
-    background-color: #282c34;
+    background-color: #17383b;
     color: #dfdfdf;
     font-family: "Roboto Mono";
     font-size: 14px;
@@ -50,3 +50,10 @@ p {
     padding: 0px;
     margin: 0px;
 }
+
+.header-img {
+    width: 100%;
+    height: 400px;
+    background: url('http://www.kodhus.com/freecourse-images/header-image.jpg');
+    background-size: cover;
+  }
