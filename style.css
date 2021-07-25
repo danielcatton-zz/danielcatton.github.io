@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Anton');
@@ -6,7 +7,7 @@ body {
     padding: 20px;
     background-color: #17383b;
     color: #17383b;
-    font-family: "Roboto Mono";
+    font-family: "Poppins";
     font-size: 14px;
     line-height: 22px;
     margin: 0 auto;
