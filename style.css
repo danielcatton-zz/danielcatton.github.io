@@ -75,3 +75,27 @@ p {
     color: white;
     font-size: 30px;
   }
+
+  .software-header {
+    padding: 100px;
+    text-align: center;
+    background: center / contain no-repeat url('https://danielcatton.github.io/software.png');
+    color: white;
+    font-size: 30px;
+  }
+
+  .socials-header {
+    padding: 100px;
+    text-align: center;
+    background: center / contain no-repeat url('https://danielcatton.github.io/socials.png');
+    color: white;
+    font-size: 30px;
+  }
+
+  .starbase-header {
+    padding: 100px;
+    text-align: center;
+    background: center / contain no-repeat url('https://danielcatton.github.io/starbase.png');
+    color: white;
+    font-size: 30px;
+  }
