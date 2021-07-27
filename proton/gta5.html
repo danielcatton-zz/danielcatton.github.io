@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <link rel="stylesheet" href="https://danielcatton.github.io/style.css">
+            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+            <link rel="manifest" href="/site.webmanifest">
+            <meta name="msapplication-TileColor" content="#da532c">
+            <meta name="theme-color" content="#ffffff">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <title>GTA V on Proton</title>
+        </head>
+        <header class="proton-header"></header><br>
+        <em>This page contains tutorials for running games with Valve's Proton compatibility layer.<br>
+            All games are tested on openSUSE Tumbleweed with specs found <a href="hardware.html">here</a>
+        </em><br><br>
+        <h1><a target="_blank" href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/">Grand Theft Auto V</a></h1><br>
+        <p>Go to Steam > Settings > Steam Play and tick "Enable Steam Play for all other titles"<br>
+        Download the latest version of GloriousEggroll's custom version of Proton from <a target="_blank" href="https://github.com/GloriousEggroll/proton-ge-custom/releases">this link</a><br>
+    <p>Create this directory: <code>~/.steam/root/compatibilitytools.d</code></p><br>
+    <p>This can be done with this command:</p><code>mkdir ~/.steam/root/compatibilitytools.d</code><br><br>
+    <p>Extract the contents of Proton-VERSION.tar.gz to <code>~/.steam/root/compatibilitytools.d</code><br>
+        Restart Steam.</p><br>
+        <p>Right Click on Grand Theft Auto V, then go to Properties > Compatibility and "Force the use of a specific Steam Play compatibility tool"<br>
+        Select the Proton-GE version you downloaded.</p><br>
+        <p>Go to Properties > General and paste this string into the "Launch Options" box.</p>
+        <code>PULSE_LATENCY_MSEC=60 %command% -vulkan -USEALLAVAILABLECORES -cpuLoadRebalancing -ignorepipelinecache gamemoderun %command%</code><br><br>
+        <p>Launch Grand Theft Auto V and proceed through the Rockstar Games Launcher installation. <br>
+            Please note, Processing Vulkan shaders can take a long time.<br>
+        The game will launch windowed. It is recommended that you set the game to Fullscreen mode, with DirectX 11 enabled, along with setting "Refresh Rate" to match your monitor and enabling VSync. This should eliminate most stuttering in game.</p><br>
+        <p>The game should now be fully playable on Linux. Please keep in mind that anticheat software sometimes detects Proton as "unauthorised third-party software", therefore only play GTA Online if you are willing to take the risk of a possible ban.</p><br>
