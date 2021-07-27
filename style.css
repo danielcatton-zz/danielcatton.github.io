@@ -99,3 +99,11 @@ p {
     color: white;
     font-size: 30px;
   }
+
+  .proton-header {
+    padding: 100px;
+    text-align: center;
+    background: center / contain no-repeat url('https://danielcatton.github.io/proton.png');
+    color: white;
+    font-size: 30px;
+  }
