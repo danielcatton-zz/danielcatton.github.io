@@ -2,12 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://danielcatton.github.io/fonts/optitomasobold-extended-webfont.woff');
 
 body {
     padding: 20px;
     background-color: #32333e;
     color: #ffffff;
-    font-family: "Poppins";
+    font-family: "optitomasobold-extended-webfont";
     font-size: 14px;
     line-height: 22px;
     margin: 0 auto;
