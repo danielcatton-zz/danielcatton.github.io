@@ -115,3 +115,11 @@ p {
     color: white;
     font-size: 30px;
   }
+
+  .brand-header {
+    padding: 100px;
+    text-align: center;
+    background: center / contain no-repeat url('https://danielcatton.github.io/img/SM-TWT-HDR-TP.png');
+    color: white;
+    font-size: 30px;
+  }
